@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISMuseumMelon",
+  "modelName": "i-i-s-museum-melon",
+  "className": "Melon",
+  "nameSpace": "IIS.Museum",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "color",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "weight",
+      "type": "number",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "MelonE",
+      "modelName": "i-i-s-museum-melon",
+      "attrs": [
+        {
+          "name": "color",
+          "caption": "Color",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "weight",
+          "caption": "Weight",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "MelonL",
+      "modelName": "i-i-s-museum-melon",
+      "attrs": [
+        {
+          "name": "color",
+          "caption": "Color",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "weight",
+          "caption": "Weight",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

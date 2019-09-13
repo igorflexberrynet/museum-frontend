@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Museum",
+  "applicationTitle": "Museum",
+  "items": [
+    {
+      "link": null,
+      "menuName": "museum",
+      "caption": "Museum",
+      "title": "Museum",
+      "children": [
+        {
+          "link": "i-i-s-museum-contact-l",
+          "menuName": null,
+          "caption": "Contact",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-museum-melon-l",
+          "menuName": null,
+          "caption": "Melon",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
